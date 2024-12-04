@@ -1,0 +1,69 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffffab;
+  color: #000000;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #c23a31;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #4b0202;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #c23a31;
+  box-shadow: 0 0 5px rgba(224, 19, 19, 0.5);
+}
+
+button {
+  background-color: #c23a31;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c23a31;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
